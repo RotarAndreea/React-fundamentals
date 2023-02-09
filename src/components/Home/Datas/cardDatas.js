@@ -1,0 +1,30 @@
+export default [
+    {
+                id:1,
+                image:"skill.png",
+                rate:"1.0",
+                number:"1",
+                state:"Germany"
+    },
+    {
+                id:2,
+                image:"think.png",
+                rate:"2.0",
+                number:"2",
+                state:"France"
+    },
+    {
+                id:3,
+                image:"key-skills.png",
+                rate:"3.0",
+                number:"3",
+                state:"Italy"
+    },
+    {
+                id:4,
+                image:"skill.png",
+                rate:"4.0",
+                number:"4",
+                state:"Romania"
+    }
+]
