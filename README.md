@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+## `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Rezumatul proiectului
+Proiectul a urmarit implementarea mai multor concepte si tehnologii de baza ale framework-ului React. Scopul proiectului a fost punerea in practica a tehnologiilor precum: ... .
+ 
+In folderul components se afla toate scripturile pentru crearea elementelor. Folderul pages cuprinde fisierele pentru toate paginile web implementate in proiect, in numar de 7.
 
-### `npm test`
+# folderul components
+In folderul components s-au creat mai multe subfoldere cu un nume sugestiv pentru fiecare pagina din browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# pagina home
+Este pagina principala care se deschide la rularea proiectului. Aici au fost implementate mai multe elemente folosindu-se CSS (responsive design si adaptive design), precum si integrarea conceptelor de props.
 
-### `npm run build`
+# pagina MemeGenerator
+Pagina MemeGenerator este, dupa cum sugereaza si numele, o mini aplicatie pentru generarea de meme-uri. Pagina cuprinde butoane text care preiau textul cu ajutorul useState si il ecranizeaza peste o imagine generata random. Imaginile precum si informatiile despre acestea sunt generate aleator dintr-o pagina web la care s-a facut conectarea folosindu-se elementele useEffect, mai exact fetch si then. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# pagina Applications
+Aceasta pagina foloseste de asemenea tehnologia useEffects pentru a prelua datele unor caractere, si afisarea acestor date. Informatiile sunt afisate pe rand, cu ajutorul unui buton care in momentul in care este apasat schimba caracterul si incrementeaza un numar afisat in pagina care contorizeaza de cate ori a fost apasat butonul.
+In aceasta pagina se afla si implementarea tehnologiilor props si ... pentru afisarea unei imagini goale sau colorate, in functie de apasarea pe aceasta.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# pagina Exercise
+Implementarea acestei pagini s-a facut axandu-se pe integrarea cunostintelor de props, operatorii ternari, functii ale array-ului si state. In pagina sunt afisate 6 cuburi, unele goale iar altele colorate. In pagina este afisat de 6 ori acelasi element cub, insa cu valori diferite. La apasarea oricarui cub, acesta trebuie sa isi modifice culoarea: daca este transparent trebuie sa se coloreze in negru, respectiv daca este negru trebuie sa devina transparent.
+De asemenea au fost implementate si butoane de diferite tipuri pentru a fi folosite in moduri specifice, urmarindu-se importanta caracteristicilor acestuia : id, value,onChange, name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# pagina Form
+Aceasta pagina cuprinde diferite butoane caruia li s-au pus anumite reguli ce trebuie sa fie respectate pentru a putea fi apasat cu succes butonul de Send.
 
-### `npm run eject`
+# pagina Exercise2
+In aceasta pagina este afisat pe ecran latimea ecranului(folosindu-se useEffect), in timp ce utilizatorul redimensioneaza fereastra.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# pagina Challenge1
+In aceasta pagina a fost implementat un buton de tipul dark/light theme, care in momentul in care este apasat schimba culorile predominante de pe ecran in alb sau negru.
