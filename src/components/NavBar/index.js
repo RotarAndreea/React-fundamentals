@@ -22,13 +22,7 @@ export default function NavBar() {
             <Link className='link' to="/Exercise2">Exercise2</Link>
             <Link className='link' to="/Challenge1">Challenge1</Link>
           </div>
-          <div>
-            <ul className='nav-items'>
-              <li>acasa</li>
-              <li>contact</li>
-              <li>harta</li>
-            </ul>
-          </div>
+
       </div>
       
     <Routes>

@@ -11,7 +11,7 @@ const Index = () => {
     <div>
         <button onClick={toggle}>
             Toggle WindowTracker
-        </button>
+        </button> 
        {show && <WindowTracker /> }
     </div>
   )

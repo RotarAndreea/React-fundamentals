@@ -1,5 +1,4 @@
 import React from 'react'
-import memesData from '../Home/Datas/memesData';
 import Count from './Count';
 
 const Form = () => {

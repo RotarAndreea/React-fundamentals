@@ -3,7 +3,7 @@ import "./style.css"
 
 const Card = (props) => {
     let badgeText
-    if (props.data.number === '1') {  
+    if (props.data.number === '1') {   
         badgeText="Number 1"
     } else if (props.data.number === '3' )
         badgeText="Number 3"
