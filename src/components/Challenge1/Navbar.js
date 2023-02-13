@@ -8,10 +8,10 @@ const Navbar = (props) => {
     <div className={props.mode ? "" : "dark-theme"}  >
       <div className='container'>
         <h3 className='title'>React Facts</h3>
-        <div onClick={props.handleToggle} className='toggler'>
+        <div  className='toggler'>
             <p className='toggler--light' >Light</p>
-            <div className='toggler--slider'>
-                <div className='toggler--slider--circle'></div>
+            <div onClick={props.handleToggle} className='toggler--slider'>
+                <div  className='toggler--slider--circle'></div>
             </div>
             <p className='toggler--dark'>Dark</p>
         </div>
